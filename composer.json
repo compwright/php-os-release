@@ -1,0 +1,30 @@
+{
+    "name": "compwright/php-os-release",
+    "description": "FreeDesktop.org os-release file reader for PHP",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jonathon Hill",
+            "email": "jonathon@compwright.com",
+            "homepage": "https://compwright.com"
+        }
+    ],
+    "require": {
+        "php": "^8.3"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.74",
+        "phpunit/phpunit": "^12.0",
+        "phpstan/phpstan": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "CompWright\\PhpOsRelease\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "CompWright\\PhpOsRelease\\": "tests/"
+        }
+    }
+}
